@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
-import NumberButton from './components/ButtonComponents/NumberButtons/NumberButton'
-import {SpecialButton} from 'SpecialButton';
-import {OperatorButton} from 'OperatorButton'
+
+ import NumberButton from './components/ButtonComponents/NumberButtons/NumberButton'
+// import SpecialButton from './components/ButtonComponents/SpecialButtons/SpecialButton';
+// import OperationButton from './components/ButtonComponents/OperatorButtons/OperatorButton'
 // STEP 4 - import the button and display components
 // Don't forget to import any extra css/scss files you build into the correct component
 
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
+
 
 function App() {
   // STEP 5 - After you get the components displaying using the provided data file, write your state hooks here.
@@ -19,12 +21,14 @@ function App() {
   return (
     <div className="container">
       <Logo />
+      
 
       <div className="App">
-      <NumberButton />
-      <SpecialButton />
-      <OperatorButton />
-        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+       {NumberButton}
+      {/* <SpecialButton /> */}
+      {/* <OperationButton /> */}
+       
+        {/* STEP 4 -  */}
       </div>
     </div>
   );

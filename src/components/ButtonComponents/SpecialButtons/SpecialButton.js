@@ -1,5 +1,5 @@
 import React from "react";
-import {Specials} from './Specials'
+import Specials from './Specials'
 
 const SpecialButton = () => {
   return (
@@ -9,3 +9,4 @@ const SpecialButton = () => {
     </>
   );
 };
+export default SpecialButton
