@@ -1,12 +1,14 @@
-import React from "react";
-import Specials from './Specials'
 
-const SpecialButton = () => {
-  return (
-    <>
-    {Specials}
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
-  );
-};
+import React from "react"
+import { cn } from '../../../data'
+
+const SpecialButton = props => {
+  return <button
+    style={{ gridArea: cn(props.special) }}
+    onClick={() => props.setDisplay(0)}>{props.special}</button>
+
+}
+
+
+
 export default SpecialButton
