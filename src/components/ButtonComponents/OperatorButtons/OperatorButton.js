@@ -1,18 +1,19 @@
-import React from "react"
-import { cn } from '../../../data'
+import React from "react";
 
-const OperatorButton = props => {
-  return <button
-    style={{ gridArea: cn(props.operator.char) }}
-    onClick={() => {
-      switch (props.operator.char) {
-        case '=':
-          return props.setDisplay(eval(props.display))
-        default:
-          return props.setDisplay(`${props.display}${props.operator.value}`)
-      }
-    }}
-  >{props.operator.char}</button>
-}
+const OperatorButton = (props) => {
+  return (
+    <>
+      {/* Display a button element rendering the data being passed down from the parent container on props */}
 
-export default OperatorButton
+
+      <button className="operator-button">
+        {props.operator.char}
+      </button>
+
+
+    </>
+  );
+};
+
+
+export default OperatorButton;
