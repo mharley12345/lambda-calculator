@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./App.scss";
+import '/App.css'
 
 
 import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
@@ -51,14 +51,18 @@ function App() {
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
 
-
+      
         <Display number={displayValue} />
-
+  
+    
         <Numbers addNumber={addNumber} />
-        
+     
+      
         <Specials />
         
+        <div className='oppContainer'>
         <Operators addOperator={addOperator} />
+        </div>
 
 
       </div>

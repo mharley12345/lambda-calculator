@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import OperatorButton from './OperatorButton';
-
+import '../../../App.css'
 //import any components needed
 
 import {operators} from '../../../data';
