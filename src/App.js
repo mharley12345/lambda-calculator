@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import '/App.css'
+import "./App.css"
 
 
 import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
@@ -54,15 +54,15 @@ function App() {
       
         <Display number={displayValue} />
   
-    
+        <Specials />
         <Numbers addNumber={addNumber} />
      
       
-        <Specials />
+  
         
-        <div className='oppContainer'>
+        {/* <div className='oppContainer'> */}
         <Operators addOperator={addOperator} />
-        </div>
+        
 
 
       </div>
