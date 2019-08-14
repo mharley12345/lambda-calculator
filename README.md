@@ -25,7 +25,7 @@ This project was put together using create-react-app (CRA). You will not need to
 - [ ] Create a forked copy of this project.
 - [ ] Add your team lead as collaborator on Github.
 - [ ] Clone your OWN version of the repository in your terminal
-- [ ] CD into the project base directory `cd lambda-calculator`
+- [ ] CD into the project base directory `cd lambda-calculator` 
 - [ ] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [ ] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
@@ -85,7 +85,7 @@ const [numberState, setNumberState] = useState(numbers);
 - Don't forget about className vs class on your JSX elements!!
 
 **STEP 5 - (STRETCH)**
-It's time to start thinking about functionality. Before getting into this, let's try and plan out all the moving peices you'll need.
+It's time to start thinking about functionality. Before getting into this, let's try and plan out all the moving pieces you'll need.
 
 You will have some state in `App` that will keep track of the totals. This is data that you'll pass to the display component to render in the display.
 
