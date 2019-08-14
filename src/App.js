@@ -56,12 +56,12 @@ function App() {
   
         <Specials />
         <Numbers addNumber={addNumber} />
-     
+       <Operators addOperator={addOperator} />
       
   
         
         {/* <div className='oppContainer'> */}
-        <Operators addOperator={addOperator} />
+      
         
 
 
