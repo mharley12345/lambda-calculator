@@ -47,17 +47,22 @@ function App() {
 
   return (
     <div className="container">
-      <Logo />
+    
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-
+        <Logo />
       
         <Display number={displayValue} />
-  
+      <div className="buttons-container">
+        <div className="topBtns">
         <Specials />
         <Numbers addNumber={addNumber} />
+
+        </div>
        <Operators addOperator={addOperator} />
-      
+
+
+      </div>
   
         
         {/* <div className='oppContainer'> */}

@@ -1,14 +1,15 @@
-#root{
-    max-width: 800px;
-    height: 713px;
-}
+
 .container {
+    
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+}
+.App{
     background-color: crimson;
     border: solid gray 2px;
     border-radius: 15px;
-margin-top: 8rem;
-    width: 450px;
-    height: 709px;
+
 }
 
 .logo-container {
@@ -25,33 +26,52 @@ margin-top: 8rem;
     padding: 10px 20px;
 }
 
-.App {
-  max-height: 500px;
-  max-width: 800px;
+
+.buttons-container{
+    display: flex;
+   
+    
+    
+}
+.topBtns{
+    
+    width: 450px;
+    flex-wrap: wrap;
+    
+
+}
+.operDiv{
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.special-button {
+ .special-button {
     background-color: mediumblue;
     color: white;
     border-radius: 50%;
     box-shadow: 0 2px black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 20px;
-    margin: 10px 25px;
-    width:60px;
+    margin: 12px 22px;
+    width:80px;
+    
+    
    
 }
 
-.number-button {
+ .number-button {
     background-color: darkblue;
     color: white;
     border-radius: 50%;
     box-shadow: 0 2px black;
     font-size: 2rem;
     padding: 20px 30px;
-    margin: 10px 20px;
+    margin: 12px 22px;
+    width:80px;
 
-}
+} 
+
 
 .number-button:nth-last-child(2) {
     background-color: darkblue;
@@ -62,13 +82,9 @@ margin-top: 8rem;
     padding: 20px 90px;
     margin: 10px 20px;
 
-}
+} 
 
-/* .oppContainer {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
+
 
 .operator-button {
     background-color: skyblue;
@@ -76,16 +92,12 @@ margin-top: 8rem;
     border-radius: 50%;
     box-shadow: 0 2px black;
     font-size: 2rem;
-    padding: 25px 25px;
-    /* margin-block-start: 1rem; */
-    margin: 0 0 0em 11em;
+    padding: 20px;
+    margin: 10px 25px;
+    width:60px;
+
+
+
     
 
-}
- #root > div > div.App > div:nth-child(2){
-    max-width: 340px;
-} 
-/* #root > div > div.App > div:nth-child(3){
-    width:60px;
-margin-bottom: 2rem;
-} */
+}  
